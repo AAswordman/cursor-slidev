@@ -464,8 +464,9 @@ layout: default
 ---
 
 # 范例驱动实战
-## <img src="/assets/aichat/explore_and_contrast/image.png" class="inline-block h-10 align-middle mx-1">_使用Cursor完成 LoongBones 的Android渲染适配_
+## _使用Cursor完成 LoongBones 的Android渲染适配_
 
+<img src="/assets/aichat/explore_and_contrast/image.png" class="absolute top-8 right-8 w-40 h-40 opacity-30"/>
 
 <div class="relative mt-8">
   <div class="grid grid-cols-2 gap-8 items-start">
@@ -536,25 +537,40 @@ layout: default
 # 关于我 & Q&A
 
 <div class="grid grid-cols-2 gap-8 items-start">
-<div>
+  <div>
+    <h3 class="!mt-0">关于我</h3>
+    <ul class="!mt-2 text-base">
+      <li><b>GitHub</b>: <a href="https://github.com/AAswordman" target="_blank">@AAswordman</a></li>
+      <li><b>身份</b>: AI Agent & Android 开发者</li>
+      <li><b>开源项目</b>: Operit, ThePoetryOfWinter</li>
+    </ul>
+    <h3 class="!mt-4">近期动向</h3>
+    <p class="!mt-2 text-base">
+      目前致力于打造一个安卓的自动化操作Agent/语音助手，能够进行语音交互，解放双手。
+    </p>
+    <ul class="!mt-2 text-base">
+        <li><b>项目链接</b>: <a href="https://github.com/AAswordman/Operit" target="_blank">Operit on GitHub</a></li>
+    </ul>
+    <h3 class="!mt-4">本次分享幻灯片</h3>
+    <ul class="!mt-2 text-base">
+        <li><a href="https://deepen-cursor-col.vercel.app/" target="_blank">deepen-cursor-col.vercel.app</a></li>
+    </ul>
 
-### 关于我
-- **GitHub**: [@AAswordman](https://github.com/AAswordman)
-- **身份**: AI Agent & Android 开发者
-- **开源项目**:
-  - **Operit**: AI 驱动的安卓自动化操作框架
-  - **ThePoetryOfWinter**: Minecraft 数据包项目
+  </div>
 
-<br/>
-
-### 本次分享幻灯片
-- **链接**: <a href="https://deepen-cursor-col.vercel.app/" target="_blank">deepen-cursor-col.vercel.app</a>
-
-</div>
-<div class="text-center">
-  <img src="https://avatars.githubusercontent.com/u/18382998?v=4" class="rounded-full w-40 h-40 mx-auto" alt="AAswordman avatar" />
-  <p class="mt-2 text-lg">AAswordsman</p>
-  <br/>
-  <p class="text-2xl">欢迎提问！</p>
-</div>
+  <!-- Right column for QR codes -->
+  <div class="flex flex-row items-start justify-between gap-x-2">
+    <div class="text-center">
+      <img src="/assets/qr/me.png" class="w-24 h-24 mx-auto" alt="My QR Code"/>
+      <p class="text-xs mt-1 opacity-80">个人联系方式</p>
+    </div>
+    <div class="text-center">
+      <img src="/assets/qr/operit.png" class="w-24 h-24 mx-auto" alt="Operit QR Code"/>
+      <p class="text-xs mt-1 opacity-80">Operit 项目</p>
+    </div>
+    <div class="text-center">
+      <img src="/assets/qr/ppt.png" class="w-24 h-24 mx-auto" alt="Slides QR Code"/>
+      <p class="text-xs mt-1 opacity-80">幻灯片链接</p>
+    </div>
+  </div>
 </div> 
