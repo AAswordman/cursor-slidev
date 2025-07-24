@@ -533,44 +533,63 @@ class: bg-[#0F0F0F] text-white text-center
 ---
 layout: default
 ---
+# 关于我 / About Me
 
-# 关于我 & Q&A
-
-<div class="grid grid-cols-2 gap-8 items-start">
+<div class="grid grid-cols-2 gap-8 items-center">
   <div>
-    <h3 class="!mt-0">关于我</h3>
+    <h3 class="!mt-0">AAswordsman</h3>
     <ul class="!mt-2 text-base">
       <li><b>GitHub</b>: <a href="https://github.com/AAswordman" target="_blank">@AAswordman</a></li>
-      <li><b>身份</b>: AI Agent & Android 开发者</li>
+      <li><b>B站</b>: <a href="https://space.bilibili.com/399922717" target="_blank">aa剑侠</a></li>
+      <li><b>小红书</b>: <a href="https://www.xiaohongshu.com/user/profile/66725d290000000003031b25" target="_blank">希望</a></li>
+      <li><b>邮箱</b>: aaswordsman@foxmail.com</li>
+      <li><b>身份</b>: 游戏插件 冬之纪行诗 项目负责人，独立音乐人，AI Agent Android开发者</li>
       <li><b>开源项目</b>: Operit, ThePoetryOfWinter</li>
     </ul>
-    <h3 class="!mt-4">近期动向</h3>
-    <p class="!mt-2 text-base">
-      目前致力于打造一个安卓的自动化操作Agent/语音助手，能够进行语音交互，解放双手。
-    </p>
-    <ul class="!mt-2 text-base">
-        <li><b>项目链接</b>: <a href="https://github.com/AAswordman/Operit" target="_blank">Operit on GitHub</a></li>
-    </ul>
-    <h3 class="!mt-4">本次分享幻灯片</h3>
-    <ul class="!mt-2 text-base">
-        <li><a href="https://deepen-cursor-col.vercel.app/" target="_blank">deepen-cursor-col.vercel.app</a></li>
-    </ul>
-
   </div>
+  <div class="text-center">
+    <img src="/assets/qr/me.png" class="w-48 h-48 mx-auto" alt="My QR Code"/>
+    <p class="text-sm mt-2 opacity-80">个人联系方式</p>
+  </div>
+</div>
 
-  <!-- Right column for QR codes -->
-  <div class="flex flex-row items-start justify-between gap-x-2">
-    <div class="text-center">
-      <img src="/assets/qr/me.png" class="w-24 h-24 mx-auto" alt="My QR Code"/>
-      <p class="text-xs mt-1 opacity-80">个人联系方式</p>
-    </div>
-    <div class="text-center">
-      <img src="/assets/qr/operit.png" class="w-24 h-24 mx-auto" alt="Operit QR Code"/>
-      <p class="text-xs mt-1 opacity-80">Operit 项目</p>
-    </div>
-    <div class="text-center">
-      <img src="/assets/qr/ppt.png" class="w-24 h-24 mx-auto" alt="Slides QR Code"/>
-      <p class="text-xs mt-1 opacity-80">幻灯片链接</p>
-    </div>
+---
+layout: default
+---
+# 项目聚焦：Operit
+### 移动端首个功能完备、独立运行的 AI 智能助手
+
+<div class="mt-6">
+    <p class="!mt-2">
+        本次分享的许多理念，都源于我在开发 <strong>Operit</strong> 这个项目中的实践与思考。
+        <br/>
+        在构建这个复杂的 AI Agent 的过程中，Cursor 扮演了至关重要的角色，前面展示的一些对话截图也正来自于此。
+        这个项目旨在打造一个与安卓系统深度融合的AI助手，其核心操作逻辑在本地运行，仅依赖外部LLM API。有兴趣的朋友可以深入了解一下。
+    </p>
+    <br/>
+    <strong>关键特性</strong>:
+    <ul class="!mt-2 text-base">
+      <li><b>语音驱动UI自动化</b>: 通过本地语音对话，直接操作任何App，完成点击、滑动、输入等复杂任务。</li>
+      <li><b>强大的内置工具集</b>: 内置超过40种工具，覆盖文件、网络、系统、UI自动化和媒体处理。</li>
+      <li><b>开放的插件生态</b>: 丰富的插件系统，让 Agent 能通过自然语言完成多步复杂任务。</li>
+      <li><b>移动端网页开发</b>: 支持在手机上设计网页并导出为独立应用。</li>
+    </ul>
+</div>
+
+---
+layout: default
+---
+# Q&A / 资源
+
+<div class="grid grid-cols-2 gap-8 items-start mt-12">
+  <div class="text-center">
+    <p>关注 Operit 项目</p>
+    <img src="/assets/qr/operit.png" class="w-48 h-48 mx-auto rounded-lg shadow-lg" alt="Operit QR Code"/>
+    <p class="text-sm mt-2"><a href="https://github.com/AAswordman/Operit" target="_blank">AAswordman/Operit</a></p>
+  </div>
+  <div class="text-center">
+    <p>获取本次分享幻灯片</p>
+    <img src="/assets/qr/ppt.png" class="w-48 h-48 mx-auto" alt="Slides QR Code"/>
+    <p class="text-sm mt-2"><a href="https://deepen-cursor-col.vercel.app/" target="_blank">deepen-cursor-col.vercel.app</a></p>
   </div>
 </div> 
