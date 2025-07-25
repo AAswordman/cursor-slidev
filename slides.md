@@ -542,6 +542,7 @@ layout: default
       <li><b>GitHub</b>: <a href="https://github.com/AAswordman" target="_blank">@AAswordman</a></li>
       <li><b>B站</b>: <a href="https://space.bilibili.com/399922717" target="_blank">aa剑侠</a></li>
       <li><b>小红书</b>: <a href="https://www.xiaohongshu.com/user/profile/66725d290000000003031b25" target="_blank">希望</a></li>
+      <li><b>网易云音乐</b>: <a href="https://music.163.com/#/user/home?id=8398092180" target="_blank">AAswordsman</a></li>
       <li><b>邮箱</b>: aaswordsman@foxmail.com</li>
       <li><b>身份</b>: 游戏插件 冬之纪行诗 项目负责人，独立音乐人，AI Agent Android开发者</li>
       <li><b>开源项目</b>: Operit, ThePoetryOfWinter</li>
